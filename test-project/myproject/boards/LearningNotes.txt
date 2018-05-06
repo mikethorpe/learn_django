@@ -1,0 +1,6 @@
+migrations/: here Django store some files to keep track of the changes you create in the models.py file, so to keep the database and the models.py synchronized.
+admin.py: this is a configuration file for a built-in Django app called Django Admin.
+apps.py: this is a configuration file of the app itself.
+models.py: here is where we define the entities of our Web application. The models are translated automatically by Django into database tables.
+tests.py: this file is used to write unit tests for the app.
+views.py: this is the file where we handle the request/response cycle of our Web application.
